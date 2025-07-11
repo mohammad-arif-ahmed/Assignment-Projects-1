@@ -190,7 +190,39 @@ color: rgba(0, 0, 0, 0.5);
 .contact-section {
   display: flex;
   padding: 50px 40px;
-  gap: 40px;
+  gap: 60px;
+  justify-content: center;
+  justify-items: center;
+}
+
+.contact-section-title{
+width: 528px;
+height: 232px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 77px;
+line-height: 120%;
+color: #000000;
+flex: none;
+order: 0;
+flex-grow: 0;
+
+}
+
+.contact-right{
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 19px;
+width: 497px;
+height: 490px;
+flex: none;
+order: 1;
+flex-grow: 0;
+
+
 }
 
 .contact-right input, .contact-right textarea {
@@ -200,7 +232,6 @@ color: rgba(0, 0, 0, 0.5);
 }
 
 .footer {
-  background-color: #222;
   color: white;
   text-align: center;
   padding: 40px 20px;
@@ -223,3 +254,23 @@ color: rgba(0, 0, 0, 0.5);
   align-items: center;
   gap: 20px;
 }
+
+.ftLogo{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+text-align: center;
+color: #4E47FF;
+}
+
+.ftdetails{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 150%;
+text-align: center;
+color: #8987A1;
+
+}
+
