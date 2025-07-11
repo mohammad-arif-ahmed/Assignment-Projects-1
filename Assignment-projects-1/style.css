@@ -26,10 +26,14 @@ color: #4E47FF;
 
 .btn {
   padding: 10px 20px;
-  background-color: #007bff;
   color: white;
   border: none;
   transition: transform 0.3s ease, background 0.3s ease;
+  background: #4E47FF;
+  border-radius: 10px;
+
+
+
 }
 
 .btn:hover {
@@ -40,7 +44,33 @@ color: #4E47FF;
 .banner {
   flex-direction: column;
   text-align: center;
-  padding: 100px 20px;
+
+}
+
+.bannerTextbox{
+
+width: 905px;
+height: 237px;
+
+}
+
+.bannertext{
+
+width: 905px;
+height: 152px;
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 700;
+font-size: 65px;
+line-height: 76px;
+text-align: center;
+color: #252432;
+flex: none;
+order: 0;
+align-self: stretch;
+flex-grow: 0;
+
+
 }
 
 .action-section {
