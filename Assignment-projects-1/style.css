@@ -1,0 +1,99 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+
+
+.navbar, .banner {
+  background-size: cover;
+ 
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo{
+font-family: 'Inter';
+font-style: normal;
+font-weight: 900;
+font-size: 34px;
+line-height: 150%;
+color: #4E47FF;
+}
+
+
+.btn {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  transition: transform 0.3s ease, background 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #0056b3;
+  transform: scale(1.05);
+}
+
+.banner {
+  flex-direction: column;
+  text-align: center;
+  padding: 100px 20px;
+}
+
+.action-section {
+  display: flex;
+  padding: 60px 40px;
+  gap: 30px;
+}
+
+.productive-users {
+  background-color: #f4f4f4;
+  text-align: center;
+  padding: 50px 20px;
+}
+
+.user-stats {
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+}
+
+.contact-section {
+  display: flex;
+  padding: 50px 40px;
+  gap: 40px;
+}
+
+.contact-right input, .contact-right textarea {
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 10px;
+}
+
+.footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 40px 20px;
+}
+
+.footer nav a {
+  color: #ccc;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.feedback {
+  padding: 50px;
+  text-align: center;
+}
+
+.feedback .reviewer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
